@@ -1,0 +1,181 @@
+body {
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+	margin-left: 10px;
+    max-width: 1000px;
+    align-content: center;
+	margin: auto;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    color: black;
+    border-radius: 0px 20px 0px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: black;;
+    border-radius: 0px 20px 0px;
+}
+
+h3 {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    color: black;;
+    border-radius: 0px 20px 0px;
+}
+
+nav {
+    background-color: #1b252e;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: darkgrey;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+footer li {
+    float: left;
+}
+
+.page-nav ul {
+	list-style-type: none;
+	width: 28%;
+	background-color: darkblue;
+	border-radius: 0px 20px 0px;
+	padding-left: 0px;
+}
+
+.page-nav li a {
+    display: block;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: left;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+tr:nth-child(even) {
+	background: lightgray;
+	}
+	
+	
+tr:nth-child(odd) {
+	background: white;
+	}
+
+.page-nav li a:hover {
+    background-color: gray;
+    border-radius: 0px 20px 0px;
+}
+
+table {
+	font-size: 10pt;
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;	
+	text-align: left;	
+}
+
+th {
+	padding-left: 10px;
+	padding-right: 10px;	
+	background-color: darkblue;
+	text-align: left;
+	color: white;
+}
+
+footer li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    background-color: gray;
+}
+
+p {
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: justify;
+	font-size: 11pt;
+}
+
+li {
+	font-size: 11pt;
+}
+
+img {
+    border-radius: 0px 20px 0px;
+}
+
+.article-block ul {
+    list-style-type: none;
+}
+
+.article-block li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 11pt;
+}
+
+footer {
+	font-size: smaller;
+	color: darkgrey;
+}
+
+.top-link {
+	font-size: smaller;
+}
+
